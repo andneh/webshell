@@ -1,3 +1,0 @@
-/Users/andrew/projects/linux/webshell/cmake-build-debug/CMakeFiles/webshell.dir
-/Users/andrew/projects/linux/webshell/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/andrew/projects/linux/webshell/cmake-build-debug/CMakeFiles/rebuild_cache.dir
