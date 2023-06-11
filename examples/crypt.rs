@@ -23,7 +23,7 @@ fn select_cert_and_encrypt_input(conn: &Connection, user_input: &str) -> Result<
 }
 
 fn main() -> Result<()> {
-    let conn = Connection::open("../db.sqlite")?;
+    let conn = Connection::open("../data.sqlite.db")?;
 
     let cert = select_cert(&conn, "CrypterClient")?;
     println!("Cert: {:?}", cert);

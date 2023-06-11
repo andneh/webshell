@@ -1,5 +1,6 @@
-pub mod controllers;
+pub mod utils;
 pub mod models;
+pub mod controllers;
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right

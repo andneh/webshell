@@ -1,4 +1,6 @@
 pub struct Certificate {
+    pub id: i32,
+    pub blob: Vec<u8>,
     pub name: String,
     pub public_key: String,
     pub private_key: String,

@@ -1,4 +1,2 @@
-
-
-pub mod certificate;
+pub mod cert;
 
