@@ -1,0 +1,18 @@
+[package]
+name = "rs-ssh"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ansi_term = "0.12.1"
+clap = "4.3.3"
+rust-crypto = "0.2.36"
+rusqlite = "0.29.0"
+log = "0.4.19"
+rand = "0.8.5"
+dotent = "0.2.10"
+config = "0.13.3"
+rdkafka = "0.32.2"
+tokio = "1.28.2"
