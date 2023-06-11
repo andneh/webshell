@@ -6,6 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+diesel = { version = "2.1.0", features = ["sqlite"] }
 ansi_term = "0.12.1"
 clap = "4.3.3"
 rust-crypto = "0.2.36"

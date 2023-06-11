@@ -55,7 +55,7 @@ fn get_all_users(conn: &Connection) -> Result<Vec<User>> {
 }
 
 fn main() -> Result<()> {
-    let conn = Connection::open("../data.sqlite")?;
+    let conn = Connection::open("data/data.sqlite")?;
 
     create_table_if_not_exists(&conn)?;
 
